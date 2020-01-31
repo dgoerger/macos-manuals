@@ -44,16 +44,3 @@ Can't I distribute the collected manuals instead of a Makefile?
 It's open source, so it's probably fine. But I'm not a lawyer, so I'm 
 going to err on the side of not redistributing Apple's copyrighted 
 works.
-
-
-There's a manual missing!
--------------------------
-
-Neato. Two things:
-
-  1. Only software listed at https://opensource.apple.com/source is 
-  actually open source (i.e. much macOS software is proprietary).
-
-  2. If it's listed on Apple's open source site, let me know the name 
-  of the manual file (e.g. "ls.1") and I'll look it up and try to add 
-  it to the project Makefile.
