@@ -1,3 +1,4 @@
 *.tar.gz
+fetch-src.sh
 manroot
 tmp
