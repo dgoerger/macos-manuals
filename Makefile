@@ -7,7 +7,15 @@ all:
 	mkdir tmp
 	find . -type f -name "*.tar.gz" -exec tar -C tmp -xzf {} \; 2>/dev/null
 	# collate into manroot/
-	/bin/ksh -c 'mkdir -p manroot/{man1,man2,man3,man4,man5,man6,man7,man8,man9}'
+	mkdir -p manroot/man1
+	mkdir -p manroot/man2
+	mkdir -p manroot/man3
+	mkdir -p manroot/man4
+	mkdir -p manroot/man5
+	mkdir -p manroot/man6
+	mkdir -p manroot/man7
+	mkdir -p manroot/man8
+	mkdir -p manroot/man9
 	find tmp -type f -name "*.1" -exec cp -p {} manroot/man1/ \; 2>/dev/null
 	find tmp -type f -name "*.1.in" -exec cp -p {} manroot/man1/ \; 2>/dev/null
 	find tmp -type f -name "*.2" -exec cp -p {} manroot/man2/ \; 2>/dev/null
